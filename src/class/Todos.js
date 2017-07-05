@@ -25,7 +25,7 @@ class Todos extends Component {
   // 修改增加内容的文本
   changeTextVal(e){
     this.setState({
-      textVal: e.target.value;
+      textVal: e.target.value
     })
   }
   // 增加一条
